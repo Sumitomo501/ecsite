@@ -1,0 +1,22 @@
+version: "3.2"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 8080:80
+    links:
+      - db
+    depends_on:
+      - db
+  db:
+    image: mysql:5.7
+    volumes:
+      - ./db/mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - 43306:3306

@@ -1,0 +1,76 @@
+body {
+    background-color: black
+}
+.form_r {
+    position: relative;
+    height: 250px;
+}
+.login_form {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%);
+    transform : translate(-50%);
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    color: #fff;
+    background-color: #1b2538;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px rgba(235, 229, 253, 0.5);
+}
+.ttl {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.inp01 {
+	position: relative;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+.inp01 input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+.ef input[type='text']:focus {
+	border: 1px solid #4400ff;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(73, 7, 255, 0.5);
+}
+.inp01 input[type='password'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+.ef input[type='password']:focus {
+	border: 1px solid #4400ff;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(73, 7, 255, 0.5);
+}
+.b {
+    text-align: center;
+}
+.sub_b {
+    padding: 10px 25px;
+    background-color: steelblue;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 auto;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}

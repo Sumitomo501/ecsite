@@ -1,0 +1,62 @@
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 24px;
+}
+.left_menu {
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    color: white;
+    background-color: darkslateblue;
+}
+.left_menu ul {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.l_menu {
+    list-style: none;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.l_menu:hover{
+    background-color: blue;
+}
+.left_menu a {
+    color: white;
+}
+.left_menu li {
+    margin-bottom: 10px;
+}
+.r_content {
+    padding-top: 10px;
+    margin-left: calc(30% + 10px);
+}
+.usertable {
+    border: 1px solid #000;
+}
+.usertable th{
+    background-color: darkgray;
+    border: 1px solid #000;
+}
+.tablecell {
+    border: 1px solid #000;
+}
+.tablecell td {
+    border: 1px solid #000;
+    padding: 4px 8px;
+}
+
+.addbutton {
+    border: 1px solid darkslateblue;
+    border-radius: 10px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 3px 5px;
+    margin: 10px 0;
+    display: inline-block;
+}
+.addbutton a {
+    color: white;
+}
